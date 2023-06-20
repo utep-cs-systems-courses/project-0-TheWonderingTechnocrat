@@ -25,4 +25,10 @@ void print_triangle(int leftCol, int size)
     putchar('\n');
   }
 }
+//Print an arrow of specified height whose left edge is at col leftCol.
+void print_arrow(int leftCol, int size)
+{
+  print_triangle(leftCol/2,size);
+    print_square(leftCol,size);
+    }
 
